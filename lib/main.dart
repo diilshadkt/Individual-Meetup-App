@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:individual_meetup_app/view/pages/login_page.dart';
+import 'package:individual_meetup_app/feature_1/view/pages/login_page.dart';
 
 void main() {
   runApp(const MyApp());
