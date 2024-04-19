@@ -3,7 +3,6 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:individual_meetup_app/core/theme/app_theme.dart';
 import 'package:individual_meetup_app/feature_1/controller/provider/auth_provider.dart';
-import 'package:individual_meetup_app/feature_1/view/pages/home_page.dart';
 import 'package:individual_meetup_app/feature_1/view/widgets/other_login_method.dart';
 import 'package:individual_meetup_app/feature_1/view/widgets/text_field_widget.dart';
 

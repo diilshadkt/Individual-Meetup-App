@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:individual_meetup_app/core/utils/snackbar_utils.dart';
 import 'package:individual_meetup_app/feature_1/controller/services/auth_service.dart';
 import 'package:individual_meetup_app/feature_1/model/auth_model.dart';
-import 'package:individual_meetup_app/feature_1/view/pages/home_page.dart';
+import 'package:individual_meetup_app/feature_2/view/pages/home_page.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'auth_provider.g.dart';
 
