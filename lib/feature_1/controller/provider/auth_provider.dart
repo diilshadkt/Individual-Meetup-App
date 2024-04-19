@@ -21,8 +21,8 @@ class Auth extends _$Auth {
           await AuthService.signIn(AuthModel(email: email, password: password));
       state = false;
       if (token!.token != "") {
-        Future.sync(() => Navigator.push(
-            context, MaterialPageRoute(builder: (context) => HomePage())));
+        Future.sync(() => Navigator.pushReplacement(
+            context, MaterialPageRoute(builder: (context) => const HomePage())));
         Future.sync(() => showSnackBar(context, "Login successfully", false));
       }
     } catch (e) {
