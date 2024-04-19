@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:individual_meetup_app/core/theme/app_theme.dart';
 import 'package:individual_meetup_app/core/widget/app_bar_widget.dart';
-import 'package:individual_meetup_app/feature_2/view/widgets/bottom_nav_bar_widget.dart';
-import 'package:individual_meetup_app/feature_2/view/widgets/popular_meetup_widget.dart';
-import 'package:individual_meetup_app/feature_2/view/widgets/search_textfield_widget.dart';
-import 'package:individual_meetup_app/feature_2/view/widgets/top_trending_meetups.dart';
-import 'package:individual_meetup_app/feature_2/view/widgets/trending_popular_people_widget.dart';
+import 'package:individual_meetup_app/feature_2/view/widgets/home_page/bottom_nav_bar_widget.dart';
+import 'package:individual_meetup_app/feature_2/view/widgets/home_page/popular_meetup_widget.dart';
+import 'package:individual_meetup_app/feature_2/view/widgets/home_page/search_textfield_widget.dart';
+import 'package:individual_meetup_app/feature_2/view/widgets/home_page/top_trending_meetups.dart';
+import 'package:individual_meetup_app/feature_2/view/widgets/home_page/trending_popular_people_widget.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
