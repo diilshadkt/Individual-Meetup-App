@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:individual_meetup_app/feature_2/view/pages/description_page.dart';
+import 'package:individual_meetup_app/feature_1/view/pages/description_page.dart';
 
 class TopTrendingMeetups extends StatelessWidget {
   const TopTrendingMeetups({super.key});
@@ -16,7 +16,7 @@ class TopTrendingMeetups extends StatelessWidget {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (context) => DescriptionPage()));
+                          builder: (context) => const DescriptionPage()));
                 },
                 child: Container(
                   width: 160,

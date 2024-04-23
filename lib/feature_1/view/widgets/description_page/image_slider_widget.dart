@@ -16,10 +16,6 @@ class ImageSliderWidget extends ConsumerWidget {
 
     final imageList = [
       'https://t4.ftcdn.net/jpg/01/18/18/23/360_F_118182313_W6MDZ18sYvq3LnWTuqzJNBe2WeSgS7hp.jpg',
-      // 'https://www.shutterstock.com/image-photo/beachside-tourism-landscape-luxurious-beach-600nw-2104948745.jpg',
-      // 'https://www.shutterstock.com/image-photo/pair-sun-loungers-beach-umbrella-600nw-323287880.jpg',
-      // 'https://www.shutterstock.com/image-photo/beachside-tourism-landscape-luxurious-beach-600nw-2104948745.jpg',
-      // 'https://www.shutterstock.com/image-photo/pair-sun-loungers-beach-umbrella-600nw-323287880.jpg',
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqm9nqFlOOCIUx6FmKJmFdrYzepDTXLfraLfOESybPnCw1rrNSo9rMl6AxjAaxCQ_sQqo&usqp=CAU",
       "https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?cs=srgb&dl=pexels-fabianwiktor-994605.jpg&fm=jpg",
       "https://static.vecteezy.com/system/resources/previews/017/186/175/non_2x/tranquil-beach-scene-exotic-panorama-in-tropical-island-resort-palm-trees-white-sand-blue-sky-and-sea-honeymoon-destination-summer-vacation-or-holiday-conceptual-scenery-panoramic-landscape-photo.jpg"

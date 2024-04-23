@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:individual_meetup_app/core/widget/app_bar_widget.dart';
-import 'package:individual_meetup_app/feature_2/view/widgets/description_page/image_slider_widget.dart';
-import 'package:individual_meetup_app/feature_2/view/widgets/description_page/ratin_widget.dart';
-import 'package:individual_meetup_app/feature_2/view/widgets/description_page/synopsis_widget.dart';
-import 'package:individual_meetup_app/feature_2/view/widgets/home_page/bottom_nav_bar_widget.dart';
+import 'package:individual_meetup_app/feature_1/view/widgets/description_page/image_slider_widget.dart';
+import 'package:individual_meetup_app/feature_1/view/widgets/description_page/ratin_widget.dart';
+import 'package:individual_meetup_app/feature_1/view/widgets/description_page/synopsis_widget.dart';
+import 'package:individual_meetup_app/feature_1/view/widgets/home_page/bottom_nav_bar_widget.dart';
 
 class DescriptionPage extends StatelessWidget {
   const DescriptionPage({super.key});

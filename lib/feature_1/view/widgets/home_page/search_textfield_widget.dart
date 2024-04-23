@@ -8,25 +8,25 @@ class SearchTextFieldWidget extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return TextField(
       decoration: InputDecoration(
-        contentPadding: EdgeInsets.fromLTRB(15, 10, 7, 10),
+        contentPadding: const EdgeInsets.fromLTRB(15, 10, 7, 10),
         hintText: "Search",
-        hintStyle: TextStyle(fontSize: 19),
+        hintStyle: const TextStyle(fontSize: 19),
         border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(10),
-            borderSide: BorderSide(color: Colors.grey, width: 3)),
+            borderSide: const BorderSide(color: Colors.grey, width: 3)),
         focusedBorder: OutlineInputBorder(
-            borderSide: BorderSide(color: Colors.grey, width: 2),
+            borderSide: const BorderSide(color: Colors.grey, width: 2),
             borderRadius: BorderRadius.circular(13)),
-        prefixIcon: Padding(
-          padding: const EdgeInsets.only(left: 17),
-          child: const Icon(
+        prefixIcon: const Padding(
+          padding: EdgeInsets.only(left: 17),
+          child: Icon(
             Icons.search_outlined,
             color: Colors.black,
             size: 35,
           ),
         ),
-        suffixIcon: Padding(
-          padding: const EdgeInsets.only(right: 17),
+        suffixIcon: const Padding(
+          padding: EdgeInsets.only(right: 17),
           child: Icon(
             Icons.mic_none_rounded,
             color: Colors.black,
@@ -40,16 +40,6 @@ class SearchTextFieldWidget extends ConsumerWidget {
 
 
 
-//  TextField(
-//       decoration: InputDecoration(
-//         filled: true,
-//         fillColor: Colors.white,
-//         hintText: "Search",
-//         border: OutlineInputBorder(
-//           borderRadius: BorderRadius.circular(10),
-//           borderSide: BorderSide(color: Colors.black, width: 3),
-//         ),
+
        
-        
-//       ),
-//     );
+    

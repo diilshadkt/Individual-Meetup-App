@@ -13,11 +13,11 @@ class PopularMeetupWidget extends ConsumerWidget {
     final pageController = PageController(initialPage: currentIndex);
 
     final List<String> imageUrls = [
-      "assets/images/img-meetup_1.jpg",
-      "assets/images/img-meetup_2.jpg",
+      "assets/images/img_meetup_1.jpg",
+      "assets/images/img_meetup_2.jpg",
       "assets/images/img-meetup_3.jpg",
     ];
-    return Container(
+    return SizedBox(
       // color: Colors.amber,
       height: 280,
       child: Column(
@@ -31,16 +31,19 @@ class PopularMeetupWidget extends ConsumerWidget {
               itemBuilder: (BuildContext context, int index) {
                 return Stack(
                   children: [
-                    ClipRRect(
-                      borderRadius: BorderRadius.circular(10),
-                      child: Image.asset(
-                        imageUrls[index],
-                        fit: BoxFit.cover,
+                    SizedBox(
+                      height: 240,
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(10),
+                        child: Image.asset(
+                          imageUrls[index],
+                          fit: BoxFit.cover,
+                        ),
                       ),
                     ),
                     const Positioned(
                       bottom: 20,
-                      left: 10,
+                      left: 15,
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -63,7 +66,7 @@ class PopularMeetupWidget extends ConsumerWidget {
             ),
           ),
           Padding(
-            padding: EdgeInsets.symmetric(horizontal: 5),
+            padding: const EdgeInsets.symmetric(horizontal: 5),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: List.generate(
@@ -81,8 +84,8 @@ class PopularMeetupWidget extends ConsumerWidget {
                       color: Colors.black,
                       activeColor:
                           index == currentIndex ? Colors.black : Colors.black38,
-                      size: Size.square(10),
-                      activeSize: Size(10, 10),
+                      size: const Size.square(10),
+                      activeSize: const Size(10, 10),
                     ),
                   ),
                 ),
